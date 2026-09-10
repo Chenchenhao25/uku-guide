@@ -15,40 +15,85 @@
         "default": true,
         "groups": [
           {
-            "group": "快速开始",
+            "group": "开始使用",
             "pages": [
               "zh/index",
-              "zh/introduction",
               "zh/getting-started/download",
-              "zh/getting-started/account-setup",
+              "zh/getting-started/register",
+              "zh/getting-started/login",
+              "zh/getting-started/shop-setup",
               "zh/getting-started/first-steps"
             ],
             "icon": "rocket"
           },
           {
-            "group": "核心功能",
+            "group": "产品与条码",
+            "icon": "barcode",
             "pages": [
-              "zh/features/overview",
-              "zh/features/main-feature",
-              "zh/features/settings",
-              "zh/features/notifications"
-            ],
-            "icon": "star"
+              "zh/products/scan-barcode",
+              "zh/products/create-manual",
+              "zh/products/images",
+              "zh/products/todo-list"
+            ]
           },
           {
-            "group": "账户与资料",
+            "group": "数字季到",
+            "icon": "browser",
             "pages": [
-              "zh/account/manage-profile",
-              "zh/account/privacy",
-              "zh/account/billing"
-            ],
-            "icon": "user"
+              "zh/digital-flyers/create",
+              "zh/digital-flyers/add-products",
+              "zh/digital-flyers/templates",
+              "zh/digital-flyers/share",
+              "zh/digital-flyers/stats"
+            ]
           },
           {
-            "group": "问题排查",
+            "group": "单页季到",
+            "icon": "image",
+            "pages": [
+              "zh/single-flyers/create",
+              "zh/single-flyers/orientation",
+              "zh/single-flyers/price-validity",
+              "zh/single-flyers/customize",
+              "zh/single-flyers/download-print"
+            ]
+          },
+          {
+            "group": "店内电视",
+            "icon": "tv",
+            "pages": [
+              "zh/tv/pair",
+              "zh/tv/send-flyers",
+              "zh/tv/custom-images",
+              "zh/tv/duration",
+              "zh/tv/disconnect"
+            ]
+          },
+          {
+            "group": "客户管理",
+            "icon": "users",
+            "pages": [
+              "zh/customers/add",
+              "zh/customers/import",
+              "zh/customers/self-signup"
+            ]
+          },
+          {
+            "group": "账号与设置",
+            "icon": "user-gear",
+            "pages": [
+              "zh/account/shop-info",
+              "zh/account/change-password",
+              "zh/account/sessions",
+              "zh/account/subscription",
+              "zh/account/delete"
+            ]
+          },
+          {
+            "group": "帮助与支持",
             "pages": [
               "zh/support/faq",
-              "zh/support/common-issues",
+              "zh/support/troubleshooting",
               "zh/support/contact"
             ],
             "icon": "circle-question"
