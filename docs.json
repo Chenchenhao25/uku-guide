@@ -13,132 +13,117 @@
       {
         "language": "zh",
         "default": true,
-        "tabs": [
+        "groups": [
           {
-            "tab": "指南",
-            "groups": [
-              {
-                "group": "快速开始",
-                "pages": [
-                  "zh/introduction",
-                  "zh/getting-started/download",
-                  "zh/getting-started/account-setup",
-                  "zh/getting-started/first-steps"
-                ]
-              },
-              {
-                "group": "核心功能",
-                "pages": [
-                  "zh/features/overview",
-                  "zh/features/main-feature",
-                  "zh/features/settings",
-                  "zh/features/notifications"
-                ]
-              },
-              {
-                "group": "账户与资料",
-                "pages": [
-                  "zh/account/manage-profile",
-                  "zh/account/privacy",
-                  "zh/account/billing"
-                ]
-              },
-              {
-                "group": "问题排查",
-                "pages": [
-                  "zh/support/faq",
-                  "zh/support/common-issues",
-                  "zh/support/contact"
-                ]
-              }
+            "group": "快速开始",
+            "pages": [
+              "zh/introduction",
+              "zh/getting-started/download",
+              "zh/getting-started/account-setup",
+              "zh/getting-started/first-steps"
+            ]
+          },
+          {
+            "group": "核心功能",
+            "pages": [
+              "zh/features/overview",
+              "zh/features/main-feature",
+              "zh/features/settings",
+              "zh/features/notifications"
+            ]
+          },
+          {
+            "group": "账户与资料",
+            "pages": [
+              "zh/account/manage-profile",
+              "zh/account/privacy",
+              "zh/account/billing"
+            ]
+          },
+          {
+            "group": "问题排查",
+            "pages": [
+              "zh/support/faq",
+              "zh/support/common-issues",
+              "zh/support/contact"
             ]
           }
         ]
       },
       {
         "language": "it",
-        "tabs": [
+        "groups": [
           {
-            "tab": "Guida",
-            "groups": [
-              {
-                "group": "Inizia",
-                "pages": [
-                  "it/introduction",
-                  "it/getting-started/download",
-                  "it/getting-started/account-setup",
-                  "it/getting-started/first-steps"
-                ]
-              },
-              {
-                "group": "Funzionalità principali",
-                "pages": [
-                  "it/features/overview",
-                  "it/features/main-feature",
-                  "it/features/settings",
-                  "it/features/notifications"
-                ]
-              },
-              {
-                "group": "Account e profilo",
-                "pages": [
-                  "it/account/manage-profile",
-                  "it/account/privacy",
-                  "it/account/billing"
-                ]
-              },
-              {
-                "group": "Assistenza",
-                "pages": [
-                  "it/support/faq",
-                  "it/support/common-issues",
-                  "it/support/contact"
-                ]
-              }
+            "group": "Inizia",
+            "pages": [
+              "it/introduction",
+              "it/getting-started/download",
+              "it/getting-started/account-setup",
+              "it/getting-started/first-steps"
+            ]
+          },
+          {
+            "group": "Funzionalità principali",
+            "pages": [
+              "it/features/overview",
+              "it/features/main-feature",
+              "it/features/settings",
+              "it/features/notifications"
+            ]
+          },
+          {
+            "group": "Account e profilo",
+            "pages": [
+              "it/account/manage-profile",
+              "it/account/privacy",
+              "it/account/billing"
+            ]
+          },
+          {
+            "group": "Assistenza",
+            "pages": [
+              "it/support/faq",
+              "it/support/common-issues",
+              "it/support/contact"
             ]
           }
         ]
       },
       {
         "language": "es",
-        "tabs": [
+        "groups": [
           {
-            "tab": "Guía",
-            "groups": [
-              {
-                "group": "Comenzar",
-                "pages": [
-                  "es/introduction",
-                  "es/getting-started/download",
-                  "es/getting-started/account-setup",
-                  "es/getting-started/first-steps"
-                ]
-              },
-              {
-                "group": "Funciones principales",
-                "pages": [
-                  "es/features/overview",
-                  "es/features/main-feature",
-                  "es/features/settings",
-                  "es/features/notifications"
-                ]
-              },
-              {
-                "group": "Cuenta y perfil",
-                "pages": [
-                  "es/account/manage-profile",
-                  "es/account/privacy",
-                  "es/account/billing"
-                ]
-              },
-              {
-                "group": "Soporte",
-                "pages": [
-                  "es/support/faq",
-                  "es/support/common-issues",
-                  "es/support/contact"
-                ]
-              }
+            "group": "Comenzar",
+            "pages": [
+              "es/introduction",
+              "es/getting-started/download",
+              "es/getting-started/account-setup",
+              "es/getting-started/first-steps"
+            ]
+          },
+          {
+            "group": "Funciones principales",
+            "pages": [
+              "es/features/overview",
+              "es/features/main-feature",
+              "es/features/settings",
+              "es/features/notifications"
+            ]
+          },
+          {
+            "group": "Cuenta y perfil",
+            "pages": [
+              "es/account/manage-profile",
+              "es/account/privacy",
+              "es/account/billing"
+            ]
+          },
+          {
+            "group": "Soporte",
+            "pages": [
+              "es/support/faq",
+              "es/support/common-issues",
+              "es/support/contact"
             ]
           }
         ]
