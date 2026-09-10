@@ -17,11 +17,13 @@
           {
             "group": "快速开始",
             "pages": [
+              "zh/index",
               "zh/introduction",
               "zh/getting-started/download",
               "zh/getting-started/account-setup",
               "zh/getting-started/first-steps"
-            ]
+            ],
+            "icon": "rocket"
           },
           {
             "group": "核心功能",
@@ -30,7 +32,8 @@
               "zh/features/main-feature",
               "zh/features/settings",
               "zh/features/notifications"
-            ]
+            ],
+            "icon": "star"
           },
           {
             "group": "账户与资料",
@@ -38,7 +41,8 @@
               "zh/account/manage-profile",
               "zh/account/privacy",
               "zh/account/billing"
-            ]
+            ],
+            "icon": "user"
           },
           {
             "group": "问题排查",
@@ -46,6 +50,15 @@
               "zh/support/faq",
               "zh/support/common-issues",
               "zh/support/contact"
+            ],
+            "icon": "circle-question"
+          },
+          {
+            "group": "动态",
+            "icon": "sparkles",
+            "pages": [
+              "zh/changelog",
+              "zh/roadmap"
             ]
           }
         ]
@@ -131,10 +144,25 @@
     ]
   },
   "footer": {
-    "socials": {}
+    "socials": {
+      "instagram": "https://instagram.com/uku.app",
+      "x": "https://x.com/ukuapp"
+    }
   },
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ],
+    "display": "header"
   }
 }
