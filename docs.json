@@ -145,19 +145,6 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@uku.app"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Open App",
-      "href": "https://app.uku.app"
-    }
-  },
   "footer": {
     "socials": {}
   },
