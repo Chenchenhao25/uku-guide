@@ -143,26 +143,15 @@
       }
     ]
   },
-  "footer": {
-    "socials": {
-      "instagram": "https://instagram.com/uku.app",
-      "x": "https://x.com/ukuapp"
-    }
-  },
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
   },
   "background": {
-    "decoration": "gradient"
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude"
-    ],
-    "display": "header"
+    "decoration": "gradient",
+    "color": {
+      "light": "#f0ff00",
+      "dark": "#ccff00"
+    }
   }
 }
