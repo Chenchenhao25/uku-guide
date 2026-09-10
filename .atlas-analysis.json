@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Uku",
+  "projectDescription": "A multi-language user guide for the Uku app, helping customers get started, explore features, and resolve common issues.",
   "theme": "almond",
-  "name": "Uku",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -51,20 +49,12 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@uku.app"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Open App",
-      "href": "https://app.uku.app"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Multi-language support",
+    "Account & profile management",
+    "App settings and notifications",
+    "Billing and subscription management",
+    "FAQ and customer support"
+  ],
+  "publicApiSurface": []
 }
