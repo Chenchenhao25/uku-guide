@@ -3,9 +3,9 @@
   "theme": "almond",
   "name": "Uku",
   "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
+    "primary": "#cbfd32",
+    "light": "#cbfd32",
+    "dark": "#cbfd32"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -148,10 +148,10 @@
     "dark": "/logo/dark.png"
   },
   "background": {
-    "decoration": "gradient",
-    "color": {
-      "light": "#f0ff00",
-      "dark": "#ccff00"
-    }
+    "decoration": "gradient"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
   }
 }
