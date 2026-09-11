@@ -13,97 +13,142 @@
       {
         "language": "zh",
         "default": true,
-        "groups": [
+        "tabs": [
           {
-            "group": "开始使用",
-            "pages": [
-              "zh/index",
-              "zh/getting-started/download",
-              "zh/getting-started/register",
-              "zh/getting-started/login",
-              "zh/getting-started/shop-setup",
-              "zh/getting-started/first-steps"
-            ],
-            "icon": "rocket"
-          },
-          {
-            "group": "产品与条码",
-            "icon": "barcode",
-            "pages": [
-              "zh/products/scan-barcode",
-              "zh/products/create-manual",
-              "zh/products/images",
-              "zh/products/todo-list"
+            "tab": "📱 iOS 应用",
+            "groups": [
+              {
+                "group": "开始使用",
+                "icon": "rocket",
+                "pages": [
+                  "zh/index",
+                  "zh/ios/getting-started/what-is-uku",
+                  "zh/ios/getting-started/register",
+                  "zh/ios/getting-started/login",
+                  "zh/ios/getting-started/navigation",
+                  "zh/ios/getting-started/shop-setup"
+                ]
+              },
+              {
+                "group": "单个优惠",
+                "icon": "image",
+                "pages": [
+                  "zh/ios/single-offer/overview",
+                  "zh/ios/single-offer/format",
+                  "zh/ios/single-offer/product",
+                  "zh/ios/single-offer/barcode",
+                  "zh/ios/single-offer/prices",
+                  "zh/ios/single-offer/style",
+                  "zh/ios/single-offer/validity",
+                  "zh/ios/single-offer/save"
+                ]
+              },
+              {
+                "group": "管理与打印",
+                "icon": "print",
+                "pages": [
+                  "zh/ios/offers/manage",
+                  "zh/ios/offers/share",
+                  "zh/ios/offers/print-single",
+                  "zh/ios/offers/print-multi"
+                ]
+              },
+              {
+                "group": "数字海报",
+                "icon": "browser",
+                "pages": [
+                  "zh/ios/digital-flyers/create",
+                  "zh/ios/digital-flyers/products",
+                  "zh/ios/digital-flyers/reorder",
+                  "zh/ios/digital-flyers/share",
+                  "zh/ios/digital-flyers/delete"
+                ]
+              },
+              {
+                "group": "多页海报与网页",
+                "icon": "arrow-up-right-from-square",
+                "pages": [
+                  "zh/ios/web-access/multi-page",
+                  "zh/ios/web-access/authorize"
+                ]
+              },
+              {
+                "group": "店内电视",
+                "icon": "tv",
+                "pages": [
+                  "zh/ios/tv/pair",
+                  "zh/ios/tv/playlist",
+                  "zh/ios/tv/custom-images",
+                  "zh/ios/tv/manage"
+                ]
+              },
+              {
+                "group": "组织与工具",
+                "icon": "list-check",
+                "pages": [
+                  "zh/ios/tools/product-list",
+                  "zh/ios/tools/customers",
+                  "zh/ios/tools/resources",
+                  "zh/ios/tools/templates"
+                ]
+              },
+              {
+                "group": "Uku Pro 与订阅",
+                "icon": "crown",
+                "pages": [
+                  "zh/ios/pro/compare",
+                  "zh/ios/pro/free-trial",
+                  "zh/ios/pro/purchase",
+                  "zh/ios/pro/prices-region",
+                  "zh/ios/pro/restore",
+                  "zh/ios/pro/manage-cancel"
+                ]
+              },
+              {
+                "group": "账户与设置",
+                "icon": "user-gear",
+                "pages": [
+                  "zh/ios/account/permissions",
+                  "zh/ios/account/cache",
+                  "zh/ios/account/logout",
+                  "zh/ios/account/delete"
+                ]
+              }
             ]
           },
           {
-            "group": "数字季到",
-            "icon": "browser",
-            "pages": [
-              "zh/digital-flyers/create",
-              "zh/digital-flyers/add-products",
-              "zh/digital-flyers/templates",
-              "zh/digital-flyers/share",
-              "zh/digital-flyers/stats"
+            "tab": "💻 网页版",
+            "groups": [
+              {
+                "group": "网页版指南",
+                "icon": "browser",
+                "pages": [
+                  "zh/web/index"
+                ]
+              }
             ]
           },
           {
-            "group": "单页季到",
-            "icon": "image",
-            "pages": [
-              "zh/single-flyers/create",
-              "zh/single-flyers/orientation",
-              "zh/single-flyers/price-validity",
-              "zh/single-flyers/customize",
-              "zh/single-flyers/download-print"
-            ]
-          },
-          {
-            "group": "店内电视",
-            "icon": "tv",
-            "pages": [
-              "zh/tv/pair",
-              "zh/tv/send-flyers",
-              "zh/tv/custom-images",
-              "zh/tv/duration",
-              "zh/tv/disconnect"
-            ]
-          },
-          {
-            "group": "客户管理",
-            "icon": "users",
-            "pages": [
-              "zh/customers/add",
-              "zh/customers/import",
-              "zh/customers/self-signup"
-            ]
-          },
-          {
-            "group": "账号与设置",
-            "icon": "user-gear",
-            "pages": [
-              "zh/account/shop-info",
-              "zh/account/change-password",
-              "zh/account/sessions",
-              "zh/account/subscription",
-              "zh/account/delete"
-            ]
-          },
-          {
-            "group": "帮助与支持",
-            "pages": [
-              "zh/support/faq",
-              "zh/support/troubleshooting",
-              "zh/support/contact"
-            ],
-            "icon": "circle-question"
-          },
-          {
-            "group": "动态",
-            "icon": "sparkles",
-            "pages": [
-              "zh/changelog",
-              "zh/roadmap"
+            "tab": "🆘 帮助与支持",
+            "groups": [
+              {
+                "group": "帮助与支持",
+                "icon": "circle-question",
+                "pages": [
+                  "zh/support/faq",
+                  "zh/support/troubleshooting",
+                  "zh/support/glossary",
+                  "zh/support/contact"
+                ]
+              },
+              {
+                "group": "动态",
+                "icon": "sparkles",
+                "pages": [
+                  "zh/changelog",
+                  "zh/roadmap"
+                ]
+              }
             ]
           }
         ]

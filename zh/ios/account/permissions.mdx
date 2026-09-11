@@ -1,0 +1,74 @@
+---
+title: "UKU 应用权限设置指南"
+sidebarTitle: "应用权限"
+description: "了解 UKU 需要哪些手机权限，以及如何开启相机和照片权限，确保扫码、拍照和保存海报功能正常使用。"
+---
+
+UKU 需要使用手机的部分功能来帮你拍照、扫码和保存海报。如果某个权限被关闭，相关功能就会无法使用。本页说明 UKU 需要哪些权限，以及权限被拒绝后如何重新开启。
+
+## UKU 需要哪些权限
+
+UKU 主要使用以下两项权限：
+
+<CardGroup cols={2}>
+  <Card title="相机权限" icon="camera">
+    用来扫描商品条码、扫描二维码（比如网页登录和电视配对），以及直接拍摄商品照片。
+  </Card>
+
+  <Card title="照片权限" icon="image">
+    用来从手机相册选择商品图片，以及把做好的海报保存到相册。
+  </Card>
+</CardGroup>
+
+## 权限被拒绝怎么办
+
+如果你在第一次使用时不小心点了"不允许"，之后可以重新开启权限。UKU 提供了两种方式帮你进入设置：
+
+<Steps>
+  <Step title="通过 UKU 内的提示开启">
+    当你再次使用需要权限的功能时，UKU 会弹出提示，点击提示中的"去设置"，就能直接跳转到 UKU 的权限页面。
+  </Step>
+  <Step title="手动进入 iOS 设置">
+    打开手机**设置**，找到**UKU**，在里面可以看到各项权限的开关，把需要的权限打开即可。
+  </Step>
+</Steps>
+
+<Frame caption="UKU 权限提示界面，点击按钮前往 iOS 设置开启权限">
+  ![UKU 权限提示弹窗](/images/zh/ios/account/permissions-prompt.png)
+</Frame>
+
+## 关于照片权限的特别说明
+
+iOS 的照片权限有两种模式，需要注意区分：
+
+<AccordionGroup>
+  <Accordion title="选择照片">
+    只允许 UKU 访问你指定的几张照片。如果你选了这种模式，之后想用新的图片做海报，需要手动添加这些图片到允许访问的列表中。
+  </Accordion>
+
+  <Accordion title="所有照片">
+    UKU 可以访问你相册里的所有照片，这样选择图片更方便。
+  </Accordion>
+
+  <Accordion title="保存新照片是另一个权限">
+    从相册"选择照片"和"保存新照片"是两个不同的权限。即使你允许 UKU 选择照片，保存做好的海报到相册时，iOS 可能还会再问你一次。请根据提示允许保存。
+  </Accordion>
+</AccordionGroup>
+
+<Frame caption="iOS 照片权限设置页面，可选择访问所有照片或仅所选照片">
+  ![iOS 照片权限设置](/images/zh/ios/account/photos-permission.png)
+</Frame>
+
+<Tip>
+  建议为 UKU 开启"所有照片"权限，这样你在选择商品图片和保存海报时都会更方便。如果担心隐私，也可以选择"所选照片"，但记得及时添加需要使用的图片。
+</Tip>
+
+<Warning>
+  如果你完全拒绝了照片权限，UKU 将无法从相册选择图片，也无法把做好的海报保存到手机。相机权限被拒绝后，扫码和拍照功能也会无法使用。
+</Warning>
+
+## 相关帮助
+
+- [清除缓存](/zh/ios/account/cache)
+- [退出登录](/zh/ios/account/logout)
+- [删除账号](/zh/ios/account/delete)

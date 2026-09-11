@@ -1,0 +1,158 @@
+---
+title: "UKU 管理优惠：查找、修改、删除已保存的海报"
+sidebarTitle: "管理优惠"
+description: "在 UKU 优惠列表中查找、修改、删除已保存的海报。学会筛选竖向和横向、批量操作，以及从电视移除与删除的区别。"
+---
+
+您做过的所有单页海报都保存在**优惠**列表里。本页教您如何在这个列表中找到需要的海报，修改内容，或者删除不再需要的。特别要注意的是**从电视移除**和**删除海报**是两个不同的操作，别搞混了。
+
+<Frame caption="UKU 优惠列表界面示例">
+  ![优惠列表](/images/zh/ios/offers/list-view.png)
+</Frame>
+
+## 打开优惠列表
+
+从底部导航栏点击**优惠**图标，进入列表页面。所有您做过并保存的单页海报都在这里。
+
+## 查找和筛选
+
+### 按方向筛选
+
+顶部通常有筛选选项：
+
+- **全部**：显示所有海报
+- **竖向**：只显示竖向海报
+- **横向**：只显示横向海报（可以加到电视的那些）
+
+### 搜索
+
+如果您做过很多海报，可以用搜索功能按商品名称查找。
+
+## 打开海报详情
+
+在列表中点击任意一张海报，进入详情页面。这里您可以看到：
+
+- 海报的完整预览
+- 商品信息（名称、图片、价格）
+- 有效期状态（有效/已过期）
+- 是否在电视播放列表中
+- 各种操作按钮
+
+## 常用操作
+
+<CardGroup cols={2}>
+  <Card title="修改" icon="pen-to-square">
+    进入编辑模式修改任何内容
+  </Card>
+
+  <Card title="分享" icon="share">
+    发送给客户或到社交平台
+  </Card>
+
+  <Card title="保存到相册" icon="download">
+    存为 iPhone 相册的图片
+  </Card>
+
+  <Card title="打印" icon="print">
+    通过 AirPrint 打印
+  </Card>
+
+  <Card title="加到电视" icon="tv">
+    推送到店内电视播放
+  </Card>
+
+  <Card title="删除" icon="trash">
+    永久移除这张海报
+  </Card>
+</CardGroup>
+
+## 修改海报
+
+<Steps>
+  <Step title="打开详情">
+    在列表中点击要修改的海报。
+  </Step>
+  <Step title="进入编辑">
+    点击**编辑**或铅笔图标。
+  </Step>
+  <Step title="修改内容">
+    可以改商品名称、图片、价格、有效期、模板等任何内容。
+  </Step>
+  <Step title="保存修改">
+    完成后点击**保存**，海报会用新内容替换。
+  </Step>
+</Steps>
+
+<Warning>
+  修改保存的海报**不会更新**已经导出的图片。如果需要更新对外发送的版本，需要重新分享或打印。
+</Warning>
+
+## 删除海报
+
+<Steps>
+  <Step title="打开详情">
+    在列表中点击要删除的海报。
+  </Step>
+  <Step title="找到删除按钮">
+    通常在页面底部或操作菜单中。
+  </Step>
+  <Step title="确认删除">
+    UKU 会提示确认。这是**不可撤销**的操作。
+  </Step>
+  <Step title="确认后海报消失">
+    海报会从列表和电视播放列表中都移除。
+  </Step>
+</Steps>
+
+## 重要区别：从电视移除 vs 删除海报
+
+<Warning>
+  这两个操作完全不同：
+
+  | 操作 | 效果 | 什么时候用 |
+  | --- | --- | --- |
+  | **从电视移除** | 海报仍在优惠列表里，只是不在电视上播放了 | 想暂停电视展示但保留海报以后再用 |
+  | **删除海报** | 海报完全消失，从优惠列表和电视都移除 | 这个海报永远不再需要了 |
+</Warning>
+
+参见 [电视管理](/zh/ios/tv/manage) 了解如何从电视移除但保留海报。
+
+## 常见问题
+
+<AccordionGroup>
+  <Accordion title="能不能批量删除多张海报？">
+    请查看列表页面是否提供多选操作。不同版本可能有不同的批量功能。
+  </Accordion>
+
+  <Accordion title="删除的海报能恢复吗？">
+    不能。删除是永久操作。删除前请确认您真的不再需要这张海报。
+  </Accordion>
+
+  <Accordion title="过期的海报会自动删除吗？">
+    不会。过期只会让海报自动从店内电视播放列表移除，海报本身还在优惠列表里。
+  </Accordion>
+
+  <Accordion title="修改后想恢复原样怎么办？">
+    UKU 不提供修改历史记录。修改前请先备份（例如保存到相册或分享给自己）。
+  </Accordion>
+</AccordionGroup>
+
+## 下一步
+
+<CardGroup cols={2}>
+  <Card title="分享或保存" icon="share" href="/zh/ios/offers/share">
+    发送海报给客户
+  </Card>
+
+  <Card title="打印单个" icon="print" href="/zh/ios/offers/print-single">
+    打印单张海报
+  </Card>
+
+  <Card title="多张打印" icon="print" href="/zh/ios/offers/print-multi">
+    多张海报一起打印
+  </Card>
+
+  <Card title="推送到电视" icon="tv" href="/zh/ios/tv/playlist">
+    加到店内电视
+  </Card>
+</CardGroup>

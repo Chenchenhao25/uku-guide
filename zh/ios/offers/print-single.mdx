@@ -1,0 +1,123 @@
+---
+title: "UKU 打印单张海报：通过 AirPrint 快速打印一张 A4"
+sidebarTitle: "打印单张"
+description: "在 UKU 中打印单张海报到 AirPrint 兼容的打印机。学会检查打印机、选择份数、调整 A4 边距解决切边问题。"
+---
+
+UKU 通过 iOS 系统的 AirPrint 功能打印海报。如果您有一台支持 AirPrint 的打印机，几秒钟就能把海报打出来贴到货架上。本页说明打印一张海报的步骤，以及找不到打印机、边缘被切等常见问题的解决方法。
+
+<Frame caption="UKU 单张打印的操作示例">
+  ![打印流程](/images/zh/ios/offers/print-single-flow.png)
+</Frame>
+
+## 打印前的准备
+
+- **AirPrint 兼容的打印机**：不是所有打印机都支持。查看打印机说明书或搜索型号确认
+- **同一 Wi-Fi**：iPhone 和打印机必须在同一个 Wi-Fi 网络下
+- **打印机开机**：确认打印机开机、有纸、有墨
+- **A4 纸**：UKU 默认按 A4 纸大小设计
+
+## 打印步骤
+
+<Steps>
+  <Step title="打开海报">
+    在**优惠**列表中点击要打印的海报。
+  </Step>
+  <Step title="点击打印">
+    在详情页找到**打印**按钮。
+  </Step>
+  <Step title="选择打印机">
+    iOS 会自动搜索附近的 AirPrint 打印机。选择您的打印机。
+  </Step>
+  <Step title="调整份数和选项">
+    输入要打印的份数。可选设置纸张大小、双面打印、颜色/黑白等。
+  </Step>
+  <Step title="预览效果">
+    iOS 提供打印预览，检查内容是否完整、是否有切边。
+  </Step>
+  <Step title="确认打印">
+    点右上角**打印**按钮开始打印。
+  </Step>
+</Steps>
+
+## 找不到打印机怎么办
+
+<Steps>
+  <Step title="确认 AirPrint 支持">
+    查看打印机说明或产品页面确认支持 AirPrint。不支持的打印机 UKU 无法直接连接。
+  </Step>
+  <Step title="连接同一 Wi-Fi">
+    在 iPhone 设置 → Wi-Fi 中查看当前 Wi-Fi 名称。在打印机控制面板查看它连的 Wi-Fi。必须一致。
+  </Step>
+  <Step title="重启网络设备">
+    关闭 Wi-Fi 路由器和打印机 30 秒，然后重启。
+  </Step>
+  <Step title="检查打印机队列">
+    有些打印机需要清空之前的打印队列才能接收新任务。
+  </Step>
+  <Step title="参考 Apple 官方指南">
+    详细说明见 [Apple AirPrint 指南](https://support.apple.com/zh-cn/guide/iphone/iph92628b8f/ios) 。
+  </Step>
+</Steps>
+
+## 边缘被切了怎么办
+
+如果打印出来的海报边缘缺失一部分：
+
+<Steps>
+  <Step title="调整 A4 边距">
+    在个人资料 → 偏好设置 → 找到 A4 边距选项，增加边距值。
+  </Step>
+  <Step title="调整打印机边距">
+    在打印时的选项中，如果打印机允许设置边距，也调整一下。
+  </Step>
+  <Step title="选择缩放到边距">
+    如果 iOS 提供**缩放到适合**选项，勾选它。
+  </Step>
+  <Step title="先试印一张">
+    大批量打印前，先只打一张检查效果。避免浪费纸和墨。
+  </Step>
+</Steps>
+
+<Info>
+  不同型号的打印机可打印区域不一样。有些便宜的打印机边缘留白多，需要更大的边距设置。
+</Info>
+
+## 打印质量建议
+
+- **纸质**：普通复印纸就够用了，广告海报不需要高级纸
+- **墨盒/硒鼓**：如果打印出来颜色淡或有横条，可能是墨少了或喷头需要清洗
+- **色彩模式**：想省钱可以选黑白，视觉效果差一些但成本低
+- **份数**：不确定的时候先打 1 份试试，确认没问题再打全部
+
+## 常见问题
+
+<AccordionGroup>
+  <Accordion title="能不能打印为 PDF？">
+    在 iOS 的打印界面选择**存储为 PDF**（如果目标应用支持）或者用两指在预览上放大后分享。UKU 本身没有专门的 PDF 导出按钮。
+  </Accordion>
+
+  <Accordion title="能不能选其他纸张大小？">
+    UKU 默认按 A4 设计。如果打印机支持其他纸张（例如 A3），可以在打印选项中尝试，但效果可能不理想。
+  </Accordion>
+
+  <Accordion title="蓝牙打印机能用吗？">
+    UKU 通过 AirPrint 打印，AirPrint 基于 Wi-Fi。纯蓝牙打印机不支持。
+  </Accordion>
+
+  <Accordion title="打印很慢怎么办？">
+    可能是网络问题或打印机队列拥堵。检查 Wi-Fi 信号，清空打印队列，重启打印机试试。
+  </Accordion>
+</AccordionGroup>
+
+## 下一步
+
+<CardGroup cols={2}>
+  <Card title="多张打印" icon="print" href="/zh/ios/offers/print-multi">
+    多张海报一起打印
+  </Card>
+
+  <Card title="分享到微信" icon="share" href="/zh/ios/offers/share">
+    发送数字版本
+  </Card>
+</CardGroup>
