@@ -1,0 +1,173 @@
+---
+title: "把商品导入完整海报"
+sidebarTitle: "导入商品"
+description: "在 UKU 完整海报中通过 Excel 或 CSV 文件批量导入商品：了解可识别的列、处理重复项、直接从单页导入的方法。"
+---
+
+一份多页宣传册可能包含几十甚至几百个商品。手动一个个添加太慢，通过导入功能可以一次性把所有商品加入宣传册。
+
+## 支持的文件格式
+
+<CardGroup cols={2}>
+  <Card title="Excel (.xlsx)" icon="file-excel">
+    最推荐的格式，兼容性最好。
+  </Card>
+
+  <Card title="CSV (.csv)" icon="file-csv">
+    通用格式，注意使用 UTF-8 编码。
+  </Card>
+</CardGroup>
+
+## 准备文件
+
+导入文件的第一行应该是列名。示例结构：
+
+```text
+条形码;名称;描述;原价;折扣价;类别;数量
+1234567890123;意面 500 克;经典口味;1.49;0.99;食品;500 克
+2345678901234;洗衣液 1 升;清新柠檬;3.50;2.79;日用品;1 升
+```
+
+<Warning>
+  在 Excel 中，请将条形码列的格式设为 **文本**，避免长条形码被转成科学记数法。
+</Warning>
+
+## 导入步骤
+
+<Steps>
+  <Step title="打开导入商品">
+    在编辑器工具栏找到 **导入商品** 或 **\+ 商品**。
+  </Step>
+  <Step title="选择文件">
+    上传 Excel 或 CSV 文件，或者拖拽到指定区域。
+  </Step>
+  <Step title="映射列">
+    UKU 会显示您的文件列和 UKU 字段的对应关系。请确认映射正确。
+  </Step>
+  <Step title="预览数据">
+    检查前几行的数据，确保导入正确。
+  </Step>
+  <Step title="处理重复项">
+    如果有重复的条形码，选择处理方式（详见下方）。
+  </Step>
+  <Step title="确认导入">
+    点击 **导入**，UKU 会把所有商品加入宣传册。
+  </Step>
+  <Step title="等待处理">
+    根据商品数量不同，可能需要几秒到几分钟。
+  </Step>
+</Steps>
+
+## 可识别的列
+
+UKU 会识别以下列名（不区分大小写）：
+
+| 列名 | 对应字段 |
+| --- | --- |
+| 条形码 / barcode / EAN | 商品条形码 |
+| 名称 / name / 产品名 | 商品名称 |
+| 描述 / description | 商品描述 |
+| 原价 / price | 原价 |
+| 折扣价 / offer_price / promo | 折扣价 |
+| 类别 / category | 商品类别 |
+| 数量 / quantity | 商品规格 |
+| 增值税 / vat | 增值税税率 |
+| 图片URL / image_url | 图片链接 |
+
+<Tip>
+  UKU 支持中英文的列名。如果 UKU 没有自动识别您的列名，在映射步骤手动指定即可。
+</Tip>
+
+## 处理重复项
+
+导入时如果发现同一个条形码已经存在：
+
+<CardGroup cols={2}>
+  <Card title="跳过" icon="ban">
+    保留原有商品，不导入重复的行。
+  </Card>
+
+  <Card title="更新" icon="arrows-rotate">
+    用新数据更新原有商品。
+  </Card>
+
+  <Card title="都保留" icon="plus">
+    保留两个版本，可能造成混乱。
+  </Card>
+
+  <Card title="询问每一个" icon="circle-question">
+    对每个重复项分别决定处理方式。
+  </Card>
+</CardGroup>
+
+## 从已有单页导入
+
+除了 Excel 文件，还可以从您在 UKU 中已有的单页海报导入：
+
+<Steps>
+  <Step title="打开从已有单页导入">
+    在导入菜单中选择 **从已有单页**。
+  </Step>
+  <Step title="搜索或过滤">
+    通过名称、条形码或日期搜索。
+  </Step>
+  <Step title="选择要导入的海报">
+    勾选想要加入宣传册的商品。
+  </Step>
+  <Step title="添加到宣传册">
+    这些商品会作为新的商品框加入宣传册。
+  </Step>
+</Steps>
+
+<Note>
+  从已有单页导入时，图片、价格、名称都会一并复制。这不会影响原来的单页海报。
+</Note>
+
+## 导入后的调整
+
+导入完成后，请：
+
+<Steps>
+  <Step title="检查页面分布">
+    可能需要 [重新排版](/zh/web/full-flyers/repaginate) 让页面更整齐。
+  </Step>
+  <Step title="补充图片">
+    没有图片的商品需要单独添加，参考 [照片背景](/zh/web/full-flyers/photo-bg)。
+  </Step>
+  <Step title="调整价格样式">
+    重要商品可以使用更醒目的价格样式，参考 [商品数据](/zh/web/full-flyers/product-data)。
+  </Step>
+  <Step title="按类别组织">
+    如果商品有类别，可以按类别分页。
+  </Step>
+</Steps>
+
+## 常见问题
+
+<Accordion title="导入 500 个商品会很慢吗">
+  会。大量商品导入可能需要几分钟。请耐心等待，不要中途关闭页面。
+</Accordion>
+
+<Accordion title="导入的图片是从哪里来的">
+  如果您的文件包含 **图片URL** 列，UKU 会从该 URL 下载图片。如果没有 URL 列，商品会没有图片，需要之后手动添加。
+</Accordion>
+
+<Accordion title="能只导入部分列吗">
+  可以。在映射步骤，把不需要的列标记为 **不使用** 即可。
+</Accordion>
+
+<Accordion title="CSV 文件中文乱码">
+  确保 CSV 文件是 UTF-8 编码。在 Excel 中另存时选择 "CSV UTF-8" 格式。
+</Accordion>
+
+## 下一步
+
+<CardGroup cols={2}>
+  <Card title="重新排版" icon="arrows-rotate" href="/zh/web/full-flyers/repaginate">
+    自动调整商品在页面中的分布。
+  </Card>
+
+  <Card title="导出检查" icon="print" href="/zh/web/full-flyers/export-check">
+    导出前的检查和 PDF / PNG 输出。
+  </Card>
+</CardGroup>

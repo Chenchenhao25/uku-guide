@@ -1,0 +1,148 @@
+---
+title: "调整商品框布局：移动、缩放、变换样式"
+sidebarTitle: "布局与框"
+description: "在 UKU 完整海报中拖动商品框调整位置和大小，同时了解如何在框、页面、整个文档三个层级修改样式。"
+---
+
+在编辑器中，您可以通过拖动来调整商品框的位置和大小。同时，样式变更可以应用到 **单个框**、**整个页面** 或 **整份文档**，三个层级各有用途。
+
+## 移动商品框
+
+<Steps>
+  <Step title="选中商品框">
+    在排版视图中点击目标商品框。
+  </Step>
+  <Step title="拖动到目标位置">
+    按住鼠标左键拖动，UKU 会显示对齐辅助线。
+  </Step>
+  <Step title="使用方向键微调">
+    如果需要精确位置，用键盘方向键每次移动 1 像素。
+  </Step>
+  <Step title="释放鼠标">
+    松开鼠标完成移动。
+  </Step>
+</Steps>
+
+## 调整商品框大小
+
+<Steps>
+  <Step title="选中商品框">
+    点击要调整的商品框。
+  </Step>
+  <Step title="使用手柄拖动">
+    框的边缘和角上会出现手柄。拖动手柄改变大小。
+  </Step>
+  <Step title="保持比例">
+    按住 Shift 键拖动角上的手柄，可以按比例缩放。
+  </Step>
+  <Step title="精确输入尺寸">
+    在属性面板中直接输入宽度和高度的数值。
+  </Step>
+</Steps>
+
+## 三个层级修改样式
+
+样式变更（颜色、字体、模板）可以在三个层级应用：
+
+<CardGroup cols={2}>
+  <Card title="单个框" icon="square">
+    只修改一个商品框。适合让某个商品与众不同。
+  </Card>
+
+  <Card title="整个页面" icon="file">
+    页面上所有商品统一样式。适合保持一页内的视觉一致。
+  </Card>
+
+  <Card title="整份文档" icon="book">
+    整份宣传册的所有商品统一样式。适合快速换风格。
+  </Card>
+</CardGroup>
+
+## 如何选择应用范围
+
+<Steps>
+  <Step title="修改样式">
+    选择商品框，修改颜色或字体等。
+  </Step>
+  <Step title="查看应用选项">
+    修改后通常会出现应用范围选项：仅此项、此页、整份文档。
+  </Step>
+  <Step title="选择合适的范围">
+    根据需要选择应用的范围。
+  </Step>
+</Steps>
+
+<Warning>
+  **整份文档** 的应用会覆盖之前对单个框做的个性化调整。请谨慎使用。
+</Warning>
+
+## 对齐辅助
+
+UKU 提供多种对齐工具：
+
+| 工具 | 作用 |
+| --- | --- |
+| 自动对齐辅助线 | 拖动时出现，帮助对齐其他元素 |
+| 智能间距 | 显示等间距提示 |
+| 网格 | 打开网格模式，元素自动吸附到网格 |
+| 中心对齐 | 一键把元素放到页面中央 |
+
+## 常用键盘快捷键
+
+| 快捷键 | 作用 |
+| --- | --- |
+| Shift + 拖动 | 按比例缩放 |
+| Ctrl / Cmd + D | 复制选中元素 |
+| Delete | 删除选中元素 |
+| Ctrl / Cmd + G | 组合多个元素 |
+| Ctrl / Cmd + Shift + G | 取消组合 |
+| Ctrl / Cmd + [ 或 ] | 上移或下移图层 |
+
+## 复制样式
+
+如果您想把一个商品框的样式应用到其他框：
+
+<Steps>
+  <Step title="选中源商品框">
+    点击已经设计好的商品框。
+  </Step>
+  <Step title="复制样式">
+    在属性面板找到 **复制样式** 或使用右键菜单。
+  </Step>
+  <Step title="选中目标商品框">
+    点击要应用样式的商品框。
+  </Step>
+  <Step title="粘贴样式">
+    使用 **粘贴样式** 应用相同的设计。
+  </Step>
+</Steps>
+
+## 常见问题
+
+<Accordion title="拖动时元素跑偏">
+  可能是网格模式关闭。打开网格或使用对齐辅助线。
+</Accordion>
+
+<Accordion title="改了颜色后其他商品也变了">
+  您可能选择了 "应用到整份文档"。撤销后重新选择只应用到单个商品。
+</Accordion>
+
+<Accordion title="能撤销吗">
+  可以。使用 Ctrl/Cmd + Z 撤销上一步操作。
+</Accordion>
+
+<Accordion title="元素被其他元素挡住了">
+  使用图层控制把被挡的元素移到上层。或者移动其他元素让开位置。
+</Accordion>
+
+## 下一步
+
+<CardGroup cols={2}>
+  <Card title="页面管理" icon="file-lines" href="/zh/web/full-flyers/pages">
+    添加、删除、组织页面。
+  </Card>
+
+  <Card title="重新排版" icon="arrows-rotate" href="/zh/web/full-flyers/repaginate">
+    自动重新分配商品到页面。
+  </Card>
+</CardGroup>

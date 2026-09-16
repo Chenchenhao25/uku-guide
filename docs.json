@@ -120,10 +120,121 @@
             "tab": "网页版",
             "groups": [
               {
-                "group": "网页版指南",
+                "group": "开始使用",
+                "icon": "rocket",
+                "pages": [
+                  "zh/web/index",
+                  "zh/web/getting-started/requirements",
+                  "zh/web/getting-started/login-password",
+                  "zh/web/getting-started/login-qr",
+                  "zh/web/getting-started/navigation",
+                  "zh/web/getting-started/choose-tool"
+                ]
+              },
+              {
+                "group": "店铺设置",
+                "icon": "store",
+                "pages": [
+                  "zh/web/store-setup/shop-info",
+                  "zh/web/store-setup/preferences",
+                  "zh/web/store-setup/digital-vat",
+                  "zh/web/store-setup/desktop-shortcut"
+                ]
+              },
+              {
+                "group": "单页海报",
+                "icon": "image",
+                "pages": [
+                  "zh/web/single-offer/create",
+                  "zh/web/single-offer/manage",
+                  "zh/web/single-offer/print-a4",
+                  "zh/web/single-offer/export-excel",
+                  "zh/web/single-offer/delete"
+                ]
+              },
+              {
+                "group": "批量制作",
+                "icon": "table-cells",
+                "pages": [
+                  "zh/web/batch/overview",
+                  "zh/web/batch/import-file",
+                  "zh/web/batch/from-existing",
+                  "zh/web/batch/complete-rows",
+                  "zh/web/batch/apply-style-dates",
+                  "zh/web/batch/save-errors"
+                ]
+              },
+              {
+                "group": "待办产品",
+                "icon": "list-check",
+                "pages": [
+                  "zh/web/todo/overview",
+                  "zh/web/todo/to-flyer"
+                ]
+              },
+              {
+                "group": "完整海报",
+                "icon": "file-lines",
+                "pages": [
+                  "zh/web/full-flyers/create-wizard",
+                  "zh/web/full-flyers/editor-basics",
+                  "zh/web/full-flyers/product-data",
+                  "zh/web/full-flyers/photo-bg",
+                  "zh/web/full-flyers/promotions",
+                  "zh/web/full-flyers/prev-price",
+                  "zh/web/full-flyers/layout-boxes",
+                  "zh/web/full-flyers/pages",
+                  "zh/web/full-flyers/repaginate",
+                  "zh/web/full-flyers/header-footer",
+                  "zh/web/full-flyers/format-quality",
+                  "zh/web/full-flyers/import-products",
+                  "zh/web/full-flyers/export-check",
+                  "zh/web/full-flyers/versions-backup",
+                  "zh/web/full-flyers/templates"
+                ]
+              },
+              {
+                "group": "数字海报",
                 "icon": "browser",
                 "pages": [
-                  "zh/web/index"
+                  "zh/web/digital-flyers/create",
+                  "zh/web/digital-flyers/add-products",
+                  "zh/web/digital-flyers/import-singles",
+                  "zh/web/digital-flyers/publish-share"
+                ]
+              },
+              {
+                "group": "电视屏幕",
+                "icon": "tv",
+                "pages": [
+                  "zh/web/tv/connect",
+                  "zh/web/tv/add-content",
+                  "zh/web/tv/activate-timing",
+                  "zh/web/tv/disconnect"
+                ]
+              },
+              {
+                "group": "客户",
+                "icon": "users",
+                "pages": [
+                  "zh/web/customers/address-book",
+                  "zh/web/customers/subscription-qr",
+                  "zh/web/customers/posters-consent"
+                ]
+              },
+              {
+                "group": "订阅与支持",
+                "icon": "crown",
+                "pages": [
+                  "zh/web/subscription/plan-usage",
+                  "zh/web/subscription/upgrade-support"
+                ]
+              },
+              {
+                "group": "工作示例",
+                "icon": "lightbulb",
+                "pages": [
+                  "zh/web/examples/overview"
                 ]
               }
             ]

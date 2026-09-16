@@ -1,0 +1,169 @@
+---
+title: "设置物理格式、DPI 和印刷余量"
+sidebarTitle: "格式与质量"
+description: "在 UKU 完整海报中设置纸张格式 A5/A4/A3、打印 DPI、安全边距和印刷出血。让宣传册在印刷厂输出效果专业。"
+---
+
+在开始编辑前，请设置好宣传册的物理格式。格式决定了纸张尺寸、DPI（分辨率）、安全边距和出血。这些参数直接影响最终的印刷效果。
+
+## 支持的物理格式
+
+<CardGroup cols={2}>
+  <Card title="A5 (148×210 mm)" icon="file">
+    小型宣传册、传单、口袋书。
+  </Card>
+
+  <Card title="A4 (210×297 mm)" icon="file">
+    标准打印尺寸，最常用。
+  </Card>
+
+  <Card title="A3 (297×420 mm)" icon="file">
+    大幅宣传册、海报、封面。
+  </Card>
+
+  <Card title="自定义" icon="ruler">
+    根据印刷厂要求指定精确的宽度和高度。
+  </Card>
+</CardGroup>
+
+## 打开格式设置
+
+<Steps>
+  <Step title="打开文档属性">
+    在编辑器中点击页面空白处或者顶部工具栏的 **文档属性**。
+  </Step>
+  <Step title="打开格式部分">
+    在右侧属性面板中找到 **物理格式** 或 **纸张设置**。
+  </Step>
+  <Step title="选择格式">
+    从下拉列表中选择 A5、A4、A3 或自定义。
+  </Step>
+  <Step title="选择方向">
+    横向或纵向。
+  </Step>
+</Steps>
+
+## DPI 设置
+
+DPI 表示每英寸多少像素，决定了图片和文字的清晰度。
+
+| DPI | 用途 | 特点 |
+| --- | --- | --- |
+| 72 | 屏幕查看 | 文件小，打印模糊 |
+| 150 | 家用打印 | 文件适中，家用打印机足够 |
+| 300 | 专业印刷 | 文件较大，印刷厂标准 |
+| 600 | 高质量印刷 | 文件很大，超清晰 |
+
+<Warning>
+  设置为 300 DPI 时，10 MB 以上的图片文件很常见。请确保您的电脑和网络能处理这样的文件大小。
+</Warning>
+
+## 安全边距（Safe Zone）
+
+安全边距是页面边缘的保护区域，里面的内容不会被裁掉：
+
+<Steps>
+  <Step title="启用安全边距">
+    在文档属性中打开 **安全边距** 显示。
+  </Step>
+  <Step title="设置边距大小">
+    通常 3-5 毫米即可。印刷宣传册建议 5 毫米。
+  </Step>
+  <Step title="重要内容放在安全区内">
+    文字和 Logo 都应该在安全边距内。
+  </Step>
+</Steps>
+
+## 出血（Bleed）
+
+出血是页面边缘外的额外区域，用于印刷时精确切割。
+
+<Steps>
+  <Step title="启用出血">
+    在专业印刷时启用出血。
+  </Step>
+  <Step title="设置出血大小">
+    通常 3 毫米。请咨询印刷厂的具体要求。
+  </Step>
+  <Step title="背景延伸到出血区">
+    背景颜色和图片应该延伸到出血区，避免切割时露白边。
+  </Step>
+</Steps>
+
+<Note>
+  **安全边距** 保护重要内容不被切掉。**出血** 保护背景在切割时不留白边。两者用途不同，都很重要。
+</Note>
+
+## 印刷厂沟通
+
+发送给印刷厂前，请确认：
+
+<Steps>
+  <Step title="确认最终格式">
+    与印刷厂确认您的纸张尺寸能被支持。
+  </Step>
+  <Step title="确认 DPI 要求">
+    印刷厂通常要求 300 DPI。
+  </Step>
+  <Step title="确认出血">
+    大部分印刷厂要求 3 毫米出血。
+  </Step>
+  <Step title="导出 PDF">
+    使用 300 DPI 的 PDF 导出。参考 [导出检查](/zh/web/full-flyers/export-check)。
+  </Step>
+  <Step title="发送前预览">
+    在电脑上打开 PDF 检查每一页。
+  </Step>
+</Steps>
+
+## 家用打印
+
+家用打印通常没有出血要求：
+
+<CardGroup cols={2}>
+  <Card title="使用 A4" icon="file">
+    家用打印机大多支持 A4。
+  </Card>
+
+  <Card title="150 DPI 足够" icon="expand">
+    家用打印机分辨率有限，150 DPI 已经足够。
+  </Card>
+
+  <Card title="加大安全边距" icon="shield">
+    家用打印机边缘可能会切掉一些内容。建议 8-10 毫米安全边距。
+  </Card>
+
+  <Card title="启用店铺偏好中的安全边距" icon="gear">
+    参考 [店铺偏好](/zh/web/store-setup/preferences) 中的 A4 打印安全边距选项。
+  </Card>
+</CardGroup>
+
+## 常见问题
+
+<Accordion title="改了格式后现有内容会怎样">
+  已有的商品和元素保留，但可能需要调整位置以适应新的尺寸。
+</Accordion>
+
+<Accordion title="能中途改 DPI 吗">
+  可以。改动 DPI 只影响导出效果，不影响编辑器中的排版。
+</Accordion>
+
+<Accordion title="A4 横向和 A4 纵向可以混用吗">
+  一份宣传册的所有页面通常使用同一个方向。如果需要混用，请分成多份宣传册。
+</Accordion>
+
+<Accordion title="导出的 PDF 尺寸不对">
+  检查文档属性中的物理格式设置，确认导出时选择了正确的 DPI。
+</Accordion>
+
+## 下一步
+
+<CardGroup cols={2}>
+  <Card title="导入商品" icon="file-import" href="/zh/web/full-flyers/import-products">
+    从 Excel 或已有内容批量导入商品。
+  </Card>
+
+  <Card title="导出检查" icon="print" href="/zh/web/full-flyers/export-check">
+    检查打印质量，导出 PDF 或 PNG。
+  </Card>
+</CardGroup>

@@ -1,0 +1,91 @@
+---
+title: "把海报数据导出为 Excel 文件"
+sidebarTitle: "导出 Excel"
+description: "在 UKU 网页版把海报的商品数据导出为 Excel 文件：包含条形码、名称、原价、折扣价。适合做报表和数据备份。"
+---
+
+**导出 Excel** 功能可以把已经创建的海报中的商品数据导出为 Excel 文件。适合做报表、数据分析或者备份。
+
+## 导出步骤
+
+<Steps>
+  <Step title="打开优惠页面">
+    在左侧菜单选择 **优惠**。
+  </Step>
+  <Step title="点击导出 Excel">
+    点击页面上的 **导出 Excel** 按钮。
+  </Step>
+  <Step title="选择时间范围">
+    选择器会提供多个选项，例如最近一天、最近三天，或者自定义时间段。
+  </Step>
+  <Step title="选择要导出的海报">
+    从列出的海报中勾选要导出的项。
+  </Step>
+  <Step title="点击导出选中项">
+    点击 **导出选中** 按钮开始生成文件。
+  </Step>
+  <Step title="打开下载的文件">
+    浏览器下载完成后，在下载文件夹中打开 Excel 查看数据。
+  </Step>
+</Steps>
+
+## 导出文件包含什么
+
+导出的 Excel 文件通常包含以下列：
+
+| 列 | 说明 |
+| --- | --- |
+| 条形码 | 商品的条形码 |
+| 名称 | 商品名称 |
+| 原价 | 折扣前的价格 |
+| 折扣价 | 促销价格 |
+
+<Note>
+  这只是 **商品数据的导出**，不是海报文档本身的备份。如需备份完整海报，请参考 [完整海报的备份](/zh/web/full-flyers/versions-backup)。
+</Note>
+
+## 使用场景
+
+<CardGroup cols={2}>
+  <Card title="做报表" icon="chart-line">
+    统计一段时间内的促销商品和价格变化。
+  </Card>
+
+  <Card title="供应商核对" icon="handshake">
+    把促销商品清单发给供应商核对进货价。
+  </Card>
+
+  <Card title="数据备份" icon="floppy-disk">
+    定期导出商品数据，保留一份历史记录。
+  </Card>
+
+  <Card title="重新导入批量" icon="arrows-rotate">
+    修改后再通过批量导入更新到 UKU。
+  </Card>
+</CardGroup>
+
+## 从 Excel 重新导入
+
+导出的 Excel 可以在修改后通过 [批量导入](/zh/web/batch/import-file) 重新导入 UKU。这样能快速调整很多商品的价格。
+
+<Tip>
+  在 Excel 中保留条形码列时，请将该列格式设为 **文本**，避免长条形码被自动转为科学记数法。
+</Tip>
+
+## 常见问题
+
+<Accordion title="导出的文件在哪里">
+  在浏览器的默认下载文件夹里。您也可以在浏览器的下载记录中查看具体路径。
+</Accordion>
+
+<Accordion title="导出没有图片">
+  Excel 导出只包含文字数据（条形码、名称、价格），不包含图片。图片仍保存在 UKU 的服务器上。
+</Accordion>
+
+<Accordion title="能选择特定的时间范围吗">
+  可以。导出对话框提供多个时间范围选项，也可以自定义。
+</Accordion>
+
+<Accordion title="导出的价格是含税还是不含税">
+  导出的是您在 UKU 中填写的价格。是否含税取决于您在创建海报时的选择。
+</Accordion>

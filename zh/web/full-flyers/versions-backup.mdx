@@ -1,0 +1,202 @@
+---
+title: "保存、版本历史与备份"
+sidebarTitle: "版本与备份"
+description: "了解 UKU 完整海报的数据存储位置、自动/手动保存、最多 20 个版本历史、JSON 备份等重要的数据管理功能。"
+---
+
+完整海报的数据管理与其他 UKU 功能有很大区别。理解它才能避免丢失重要的工作成果。
+
+## 数据存储位置
+
+<Warning>
+  完整海报与单页海报的存储 **完全不同**。请仔细阅读下表。
+</Warning>
+
+| 内容 | 存储位置 | 是否跨设备同步 |
+| --- | --- | --- |
+| 单页海报 | UKU 服务器 | 是（手机和电脑之间） |
+| 数字海报 | UKU 服务器 | 是 |
+| 电视内容 | UKU 服务器 | 是 |
+| 客户数据 | UKU 服务器 | 是 |
+| **完整海报** | **浏览器本地存储** | **否，仅在当前浏览器** |
+| **个人模板** | **浏览器本地存储** | **否** |
+| 店铺资料 | UKU 服务器 | 是 |
+
+## 完整海报的重要说明
+
+<Warning>
+  完整海报保存在您使用的浏览器中：
+
+  - 换电脑无法看到之前的宣传册
+  - 换浏览器（例如从 Chrome 换到 Edge）无法看到
+  - 清除浏览器数据会 **丢失所有宣传册**
+
+  请务必定期备份。
+</Warning>
+
+## 自动保存和手动保存
+
+<CardGroup cols={2}>
+  <Card title="自动保存" icon="cloud">
+    编辑时 UKU 定期自动保存到浏览器。
+  </Card>
+
+  <Card title="手动保存" icon="floppy-disk">
+    使用 Ctrl / Cmd + S 或点击保存按钮立即保存。
+  </Card>
+</CardGroup>
+
+<Tip>
+  重要修改后建议手动保存，确保变更立即写入。
+</Tip>
+
+## 版本历史（最多 20 个）
+
+<Steps>
+  <Step title="打开版本历史">
+    在编辑器工具栏找到 **历史版本** 或 **版本**。
+  </Step>
+  <Step title="查看版本列表">
+    最多保留 20 个历史版本，按时间排序。
+  </Step>
+  <Step title="预览某个版本">
+    点击版本查看当时的状态。
+  </Step>
+  <Step title="恢复到该版本">
+    点击 **恢复** 把宣传册回退到该版本。
+  </Step>
+</Steps>
+
+<Note>
+  超过 20 个版本后，最旧的会被自动删除。请定期用备份 JSON 保留重要的里程碑。
+</Note>
+
+## JSON 备份
+
+JSON 备份是一份完整的宣传册数据文件，可以：
+
+<CardGroup cols={2}>
+  <Card title="迁移到其他浏览器" icon="right-left">
+    把宣传册从一台电脑迁移到另一台。
+  </Card>
+
+  <Card title="长期保存" icon="archive">
+    保留几个月甚至几年后仍能恢复。
+  </Card>
+
+  <Card title="分享给同事" icon="users">
+    把宣传册文件发给同事，他们可以在自己的 UKU 中导入。
+  </Card>
+
+  <Card title="防丢失" icon="shield">
+    浏览器数据丢失时的救命备份。
+  </Card>
+</CardGroup>
+
+## 下载 JSON 备份
+
+<Steps>
+  <Step title="打开宣传册库">
+    在左侧菜单选择 **完整海报**。
+  </Step>
+  <Step title="找到目标宣传册">
+    在列表中找到要备份的宣传册。
+  </Step>
+  <Step title="点击备份">
+    在宣传册的操作菜单中找到 **备份** 或 **下载 JSON**。
+  </Step>
+  <Step title="保存到电脑">
+    浏览器会下载一个 JSON 文件，请保存到安全的位置。
+  </Step>
+</Steps>
+
+## 恢复 JSON 备份
+
+<Steps>
+  <Step title="打开宣传册库">
+    进入 **完整海报**。
+  </Step>
+  <Step title="点击恢复或导入">
+    找到 **恢复备份** 或 **从 JSON 导入** 按钮。
+  </Step>
+  <Step title="选择 JSON 文件">
+    选择之前保存的备份文件。
+  </Step>
+  <Step title="确认导入">
+    UKU 会创建一份新的宣传册，与备份时的状态一致。
+  </Step>
+</Steps>
+
+## 其他管理操作
+
+在宣传册库中，每份宣传册都可以：
+
+<CardGroup cols={2}>
+  <Card title="复制" icon="copy">
+    创建一份完全相同的副本。
+  </Card>
+
+  <Card title="重命名" icon="pen">
+    修改宣传册的名称。
+  </Card>
+
+  <Card title="删除" icon="trash">
+    从库中永久删除（无法恢复）。
+  </Card>
+
+  <Card title="导出 JSON" icon="download">
+    下载备份文件。
+  </Card>
+</CardGroup>
+
+## 使用多个浏览器标签
+
+您可以同时打开多份宣传册在不同标签中编辑：
+
+<Warning>
+  但请注意：同一份宣传册 **不要在多个标签中同时打开**。这可能导致保存冲突和数据丢失。
+</Warning>
+
+## 备份的最佳做法
+
+<CardGroup cols={2}>
+  <Card title="每次大改后备份" icon="floppy-disk">
+    完成重要修改后立即下载 JSON。
+  </Card>
+
+  <Card title="按日期命名" icon="calendar">
+    例如 "春节促销_20250201.json"，方便日后查找。
+  </Card>
+
+  <Card title="多地保存" icon="cloud-arrow-up">
+    同时保存到电脑、U 盘、云盘。
+  </Card>
+
+  <Card title="定期检查备份" icon="check">
+    每几个月尝试恢复一次备份，确保文件没有损坏。
+  </Card>
+</CardGroup>
+
+## 常见问题
+
+<Accordion title="换电脑怎么办">
+  在旧电脑上下载所有宣传册的 JSON，然后在新电脑上恢复。
+</Accordion>
+
+<Accordion title="不小心清除了浏览器数据">
+  如果没有 JSON 备份，宣传册无法恢复。所以定期备份非常重要。
+</Accordion>
+
+<Accordion title="能设置自动云备份吗">
+  UKU 目前不提供自动云备份。请手动定期下载 JSON。
+</Accordion>
+
+<Accordion title="JSON 文件能编辑吗">
+  可以用文本编辑器打开，但不建议手动修改。请通过 UKU 编辑器修改。
+</Accordion>
+
+## 下一步
+
+<Card title="模板管理" icon="folder" href="/zh/web/full-flyers/templates">
+  把宣传册保存为个人模板，重复使用。
+</Card>
