@@ -30,6 +30,22 @@
                 ]
               },
               {
+                "group": "功能介绍",
+                "icon": "compass",
+                "pages": [
+                  "zh/ios/features/overview",
+                  "zh/ios/features/single-offer",
+                  "zh/ios/features/print",
+                  "zh/ios/features/digital-flyers",
+                  "zh/ios/features/tv",
+                  "zh/ios/features/product-todos",
+                  "zh/ios/features/customers",
+                  "zh/ios/features/web",
+                  "zh/ios/features/pro",
+                  "zh/ios/features/ito"
+                ]
+              },
+              {
                 "group": "单个优惠",
                 "icon": "image",
                 "pages": [
@@ -112,6 +128,23 @@
                   "zh/ios/account/cache",
                   "zh/ios/account/logout",
                   "zh/ios/account/delete"
+                ]
+              },
+              {
+                "group": "问题排查",
+                "icon": "life-ring",
+                "pages": [
+                  "zh/ios/help/start",
+                  "zh/ios/help/login",
+                  "zh/ios/help/photo",
+                  "zh/ios/help/print",
+                  "zh/ios/help/tv",
+                  "zh/ios/help/flyer",
+                  "zh/ios/help/limits",
+                  "zh/ios/help/subscription",
+                  "zh/ios/help/web",
+                  "zh/ios/help/network",
+                  "zh/ios/help/errors"
                 ]
               }
             ]
